@@ -1,7 +1,12 @@
+import { Routes } from "react-router-dom";
+
 import "./App.css";
 
 function App() {
-  return <div className="App">lms</div>;
+  return (
+    <>
+      <Routes>{<Routes></Routes>}</Routes>
+    </>
+  );
 }
-
 export default App;
